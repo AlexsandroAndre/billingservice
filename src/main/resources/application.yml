@@ -10,3 +10,8 @@ services:
     image: order-service:latest
     deploy:
       replicas: 3
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
